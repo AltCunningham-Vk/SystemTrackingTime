@@ -1,0 +1,80 @@
+<Window  
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="App.Views.LoginWindow"
+    Title="Login"
+    Width="600"
+    Height="500"
+>
+
+    <StackPanel 
+        VerticalAlignment="Center" 
+        HorizontalAlignment="Center" 
+        Spacing="10" 
+        MinWidth="272" 
+        Margin="32,24"
+    >
+
+        <TextBlock  
+            Text="Вход" 
+            FontWeight="Bold"
+            FontSize="24" 
+            Foreground="Black" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Center"
+            Margin="0,20"
+        />
+
+        <StackPanel Spacing="5">
+
+            <TextBlock  
+                Text="Логин" 
+                FontSize="13" 
+                Foreground="Black" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Center"
+            />
+
+            <TextBox 
+                x:Name="UsernameTextBox" 
+                FontSize="13" 
+                Height="36"
+                VerticalContentAlignment="Center"
+                CornerRadius="8"
+            />
+        </StackPanel>
+
+        <StackPanel Spacing="5">
+            <TextBlock  
+                Text="Пароль" 
+                FontSize="13" 
+                Foreground="Black" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Center"
+            />
+
+            <TextBox 
+                x:Name="PasswordTextBox" 
+                FontSize="13" 
+                Height="36"
+                VerticalContentAlignment="Center"
+                PasswordChar="*"
+                CornerRadius="8"
+            />
+         </StackPanel>
+         
+        <CheckBox 
+            Content="Запомнить меня" 
+            IsChecked="True" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Center"
+            FontSize="13"/>
+
+        <Button 
+            Classes="PrimaryButton"
+            Content="Войти" 
+            Click="OnLoginButtonClick"
+        />
+
+    </StackPanel>
+</Window>

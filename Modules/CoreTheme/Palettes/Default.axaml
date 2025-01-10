@@ -1,0 +1,54 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <Styles.Resources>
+        <!--FontSize-->
+        <!-- <sys:Double x:Key="CustomFontSize">14</sys:Double> -->
+        <!-- Window -->
+        <Color x:Key="ThemeWindowBackground">Gainsboro</Color>
+        <!-- BaseColorText -->
+        <Color x:Key="ThemeDarkText">Black</Color>
+        <Color x:Key="ThemeLightText">White</Color>
+        
+        <Color x:Key="TextControlBorderBrush">Silver</Color>
+        <Color x:Key="TextControlBorderBrushPointerOver">CornflowerBlue</Color>
+        <Color x:Key="TextControlBorderBrushFocused">CornflowerBlue</Color>
+        
+        <!-- ToolTip -->
+        <Color x:Key="ToolTipBackground">Beige</Color>
+        <Color x:Key="ToolTipForeground">Black</Color>
+        
+        <!-- BorderBrushColor -->
+        <Color x:Key="BorderBrushColor">LightGray</Color>
+        <Color x:Key="ButtonClassicBorderBrush">DarkGray</Color>
+        
+        <!-- TabControl -->
+        <Color x:Key="ThemeTabControlContentBackground">LavenderBlush</Color>
+        <Color x:Key="ThemeTabControlBackground">Gainsboro</Color>
+        <Color x:Key="ThemeTabControlBorderBrush">Silver</Color>
+        <Color x:Key="ThemeTabItemSelectedBackground">Gainsboro</Color>
+        <Color x:Key="ThemeTabControlText">Black</Color>
+        <Color x:Key="ThemeTabControlNoActiveText">Gray</Color>
+        <Color x:Key="ThemeTabControlSelectedText">Black</Color>
+        <Color x:Key="ThemeTabControlSelectedBorderBrush">CornflowerBlue</Color>
+        
+        <!-- TreeView (в данный момент этот компонент замененм на TreeDataGrid)-->
+        <Color x:Key="ThemeTreeViewBackground">White</Color>
+        <Color x:Key="ThemeTreeViewItemSelected">Gainsboro</Color>
+        <Color x:Key="ThemeTreeViewBorderSelected">LightGray</Color>
+        <Color x:Key="ThemeItemBackgroundPointerover">GhostWhite</Color>
+        <Color x:Key="ThemeItemBorderBrushPointerover">Gainsboro</Color>
+        
+        <!-- TextBox -->
+        <Color x:Key="ThemeTextBoxBackground">White</Color>
+        
+        <!-- DataGrid -->
+        <Color x:Key="ThemeGridLinesBrush">Silver</Color>
+        <Color x:Key="ThemeDataGridBackground">White</Color>
+        <Color x:Key="ThemeDataGridRowBackgroundOdd">#f7f2f7</Color>
+        <Color x:Key="ThemeDataGridRowBackgroundEven">White</Color>
+        <Color x:Key="ThemeDataGridRowPointeroverBackground">Lavender</Color>
+        <Color x:Key="ThemeDataGridRowSelectedBackground">Lavender</Color>
+        <Color x:Key="ThemeDataGridColumnHeaderBackground">Gainsboro</Color>
+    </Styles.Resources>
+</Styles>
